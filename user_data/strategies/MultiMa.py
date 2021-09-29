@@ -21,12 +21,12 @@ class MultiMa(IStrategy):
     buy_ma_count = IntParameter(0, 10, default=10, space="buy")
     buy_ma_gap = IntParameter(2, 10, default=2, space="buy")
     buy_ma_shift = IntParameter(0, 10, default=0, space="buy")
-    # buy_ma_rolling = IntParameter(0, 10, default=0, space='buy')
+    # buy_ma_rolling = IntParameter(0, 10, default=0, space="buy")
 
     sell_ma_count = IntParameter(0, 10, default=10, space="sell")
     sell_ma_gap = IntParameter(2, 10, default=2, space="sell")
-    sell_ma_shift = IntParameter(, 10, default=0, space="sell")
-    # sell_ma_rolling = IntParameter(0, 10, default=0, space='sell')
+    sell_ma_shift = IntParameter(0, 10, default=0, space="sell")
+    # sell_ma_rolling = IntParameter(0, 10, default=0, space="sell")
 
     # ROI table:
     minimal_roi = {"0": 0.30873, "569": 0.16689, "3211": 0.06473, "7617": 0}
